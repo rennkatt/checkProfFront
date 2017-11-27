@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="../rest/bootstrap.min.css">
   <link rel="stylesheet" href="../rest/css/style.css">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
 
 </head>
 <body >
@@ -32,6 +29,9 @@
         <a class="nav-link" href="#">Professor</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="../Horario/listar.html">Horario</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="../recurso/listar.html">Recursos</a>
       </li>
       <li class="nav-item">
@@ -50,128 +50,123 @@
 
 
 <div class="container">
+    
+    <div class="row">
 
+        <div class="col-12 page-header">
+            <h1 class="">Professores</h1>
 
-
-<div class="row">
-
-<div class="col-12">
-  
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" style="width: 70%;" type="text" placeholder="Pesquisar">
-
+        </div>
       
-        
-      <button class="btn btn-secondary my-2 my-sm-0 " type="submit"><span class="glyphicon glyphicon-search" ></span> Pesquisar</button>
-      <button type="button" class="btn btn-success" style="margin-left: 20px;">
-<span class="glyphicon glyphicon-plus" ></span>
-      Cadastrar Novo</button>
-      
-    </form>
+        <div class="col-12">
+          
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" style="width: 70%;" type="text" placeholder="Pesquisar">
+
+              <button class="btn btn-secondary my-2 my-sm-0 " type="submit"><span class="glyphicon glyphicon-search" ></span> Pesquisar</button>
+              <a href="cadastrar.html"><button type="button" class="btn btn-success" style="margin-left: 20px;"><span class="glyphicon glyphicon-plus" ></span>Cadastrar Novo</button></a>
+              
+            </form>
+        </div>
+    
+    </div>
+
+    <br>
+
+
+    </table>
+     <table class="table table-striped table-hover table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Disciplina</th>
+          <th>Outra coisa</th>
+          <th>Recurso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>
+        <a class="btn btn-info" href="visualizar.html" role="button"><span class="glyphicon glyphicon-eye-open"></span>   Info</a>
+        <a href="editar.html" role="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</a>
+        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table> 
+
 </div>
-</div>
-
-<br>
-
-
-
-</table>
- <table class="table table-striped table-hover table-bordered">
-  <thead class="thead-dark">
-    <tr>
-      <th>#</th>
-      <th>Nome</th>
-      <th>Disciplina</th>
-      <th>Outra coisa</th>
-      <th>Recurso</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>Column content</td>
-      <td>
-    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span>   Info</button>
-    <button type="button" class="btn btn-warning">  <span class="glyphicon glyphicon-pencil"></span>   Editar</button>
-    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span>   Deletar</button>
-      </td>
-    </tr>
-  </tbody>
-</table> 
-  
-  
-</div>
-
-
-
 
 <footer class="footer bg-light ">
 
@@ -184,5 +179,7 @@
     
   </div>
 </footer>
+    
+
 </body>
 </html>
